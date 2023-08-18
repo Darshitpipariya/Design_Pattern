@@ -1,4 +1,4 @@
-package Strategy_Pattern;
+package Strategy_Pattern.strategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

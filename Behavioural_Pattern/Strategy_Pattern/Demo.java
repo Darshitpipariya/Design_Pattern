@@ -5,6 +5,11 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+import Strategy_Pattern.order.Order;
+import Strategy_Pattern.strategy.PayByCreditCard;
+import Strategy_Pattern.strategy.PayByPayPal;
+import Strategy_Pattern.strategy.PayStrategy;
+
 public class Demo {
     private static Map<Integer, Integer> priceOnProducts = new HashMap<>();
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
